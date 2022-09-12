@@ -1,0 +1,127 @@
+*{
+    font-family:"inter",sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border-radius: 5%;
+}
+
+header{
+    margin-top: 0.5px;
+    margin-left: 80PX;
+    font-weight: bold;
+    
+    
+    
+
+}
+
+body{
+    background: linear-gradient(to left,#fceabb,#f8b500) 
+
+}
+
+main{
+    display: flex;
+    margin-left: 105px;
+    margin-bottom: 50px;
+}
+
+textarea{
+    resize: none;
+}
+
+.input-texto{
+    margin-top: 30px;
+    background-color: #86a80c;
+    outline: none;
+    border: none;
+}
+
+.div-alertainfo{
+
+    font-style: italic;
+}
+
+.mensaje{
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-image: url("Esponja1.jpg");
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    border-width: 100px;
+    border-radius: 15px;
+    background-position: 15px;
+    background-size: 300px;
+    
+    background-color: #86a80c;
+     
+}
+
+.copiar{
+    width: 200px;
+    height: 50px;
+    display:block;
+    flex-direction: row;
+    margin-top: 55px;
+    margin-left: 110px;
+    color: white;
+    background:linear-gradient(to left, #005c97,#363795);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.encriptar{
+    
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    background: linear-gradient(to left, #005c97,#363795);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.desencriptar{
+
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(to left, #005c97,#363795);
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: white;
+}
+
+.informacion{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+h1{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: purple;
+    font-family:'Courier New', Courier, 'Courier New', Courier, monospace
+    
+    
+}
